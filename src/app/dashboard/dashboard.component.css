@@ -1,0 +1,11 @@
+.margin{
+  color: rgb(163, 160, 160);
+  font-size: 90px;
+  height: 60px;
+  width: 100px;
+}
+
+.bg{
+  background-image: url('../../assets/bg3.webp');
+  background-size: cover;
+}
