@@ -19,12 +19,6 @@ export class LoginComponent implements OnInit {
     private authanticate : AngularFireAuth
   ) {
 
-    this.authanticate.authState.subscribe((res => {
-      console.log(res)
-      if(res?.email){
-        this.router.navigate(['/dashboard'])
-      }
-    }))
    }
 
   ngOnInit(): void {
